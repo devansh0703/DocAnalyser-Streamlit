@@ -17,8 +17,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from langchain.docstore.document import Document # To manually create Document objects for JSON
 
-# --- Configuration & Initialization ---
-load_dotenv()
+
 GOOGLE_API_KEY = "AIzaSyAsBIw0b-EyKGJQNyt-ob6Tq_vSlwhsuJA"
 
 if not GOOGLE_API_KEY:
