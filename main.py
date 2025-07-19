@@ -18,7 +18,7 @@ from langchain.prompts import PromptTemplate
 from langchain.docstore.document import Document # To manually create Document objects for JSON
 
 
-GOOGLE_API_KEY = "AIzaSyAsBIw0b-EyKGJQNyt-ob6Tq_vSlwhsuJA"
+GOOGLE_API_KEY = ""
 
 if not GOOGLE_API_KEY:
     st.error("🚨 Google API Key not found. Please set it in your .env file and restart.")
